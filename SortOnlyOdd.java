@@ -1,3 +1,7 @@
+/*
+* Example:
+* [9, 4, 2, 3, 6, 8, 1] -> [1, 4, 2, 3, 6, 8, 9]
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 
