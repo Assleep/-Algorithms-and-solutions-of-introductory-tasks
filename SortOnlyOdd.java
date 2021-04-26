@@ -1,3 +1,7 @@
+/*
+* Example:
+* [9, 4, 2, 3, 6, 8, 1] -> [1, 4, 2, 3, 6, 8, 9]
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -29,7 +33,7 @@ public class SortOnlyOdd{
                 }
             }
         }
-        size=0;
+        size = 0;
         for(int i = 0; i < arr.length; i++){
             if(arr[i]%2!=0){
                 arr[i] = temp_arr[size];
