@@ -9,7 +9,7 @@ For example, for the word "zodiacs", let's cross out the vowels. We get: "z o d 
 */
 import java.util.Scanner;
 
-public class ConsonatValue {
+public class ConsonantValue {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        System.out.println(solve(sc.nextLine()));
